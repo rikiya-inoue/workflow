@@ -1,0 +1,11 @@
+# リリースノート設定ファイル
+changelog:
+  # カテゴリ設定。変更項目をカテゴリ分けする
+  categories: 
+    - title: Enhancemen
+      labels:
+        - enhancement
+    - title: Bug Fixes
+      labels:
+        - bug
+        - fixes
