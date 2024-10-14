@@ -2,10 +2,19 @@
 changelog:
   # カテゴリ設定。変更項目をカテゴリ分けする
   categories: 
-    - title: Enhancemen
+    - title: Enhancemnet
       labels:
+        # "Enhancement"へ掲載するプルリクエストのラベル
         - enhancement
     - title: Bug Fixes
       labels:
+        # "Bug Fixes"へ掲載するプルリクエストのラベル
         - bug
         - fixes
+  exclude:
+    # リリースノートに掲載しないプルリクエストのラベル
+    labels:
+      - dependencies
+    # 下記のユーザーのプルリクエストをリリースノートに掲載しない
+    authors:
+      - dependabot
