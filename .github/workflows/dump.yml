@@ -8,7 +8,7 @@ jobs:
                         - uses: actions/checkout@v4
 
                         # ローカルアクション
-                        - uses: ./github/actions/dump/
+                        - uses: ./.github/actions/dump/
                           # アクションの出力値を参照するためにステップIDを指定
                           id: dump
 
